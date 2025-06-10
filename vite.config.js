@@ -4,7 +4,7 @@ import { setupPlugins } from '@responsive-image/vite-plugin';
 
 export default defineConfig({
   plugins: [
-	solidPlugin(),
+    solidPlugin(),
     // all your other plugins ...
     setupPlugins({
       include: /^[^?]+\.(?:jpg|JPG|png|PNG)\?.*responsive.*$/,
