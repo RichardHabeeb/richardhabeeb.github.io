@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/richardhabeeb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://habeeb.io
+  * I am richardhabeeb (https://keybase.io/richardhabeeb) on keybase.
+  * I have a public key with fingerprint C017 D14E 5F0E 93B2 9C0D  73DF 58A9 CA05 87B3 1211
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d3a76fa918f52b49d1ecb3b100ce3aee1595e29369744807e3bb0ca1af35e38c0a",
+      "fingerprint": "c017d14e5f0e93b29c0d73df58a9ca0587b31211",
+      "host": "keybase.io",
+      "key_id": "58a9ca0587b31211",
+      "kid": "0101bb581eda511a8d5e1c859acdc8ef9c0f88ebb37d0960ed2af8ad111674ab54010a",
+      "uid": "4cf9b54ce40ff6bb8da935b6eb9f6119",
+      "username": "richardhabeeb"
+    },
+    "service": {
+      "hostname": "habeeb.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1749582253,
+  "expire_in": 157680000,
+  "prev": "1601142cc7dbf01e137a6c3e3d379d999239f0ab78f3450a5e4eec521dfe99c0",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUn1QFGUcvjuBCQS15EuKzA3jdPjYd/f2dvdkcMpCME1Q0IjgeN/dd7nl4472
+DpARbLxSo+Fr0oICAseZHMSM4YBJlNKJC0IbzUqmMaZAZ8CPcSagBAejXZT/ev95
+531+z/P8nt9v3vqgZboA/Zvtw75HPM88rb90G+lsye7n9hPIIZYTlv1EAV68cKGI
+nS5rgSwSFoIEFCnSkDVLkAecxFDIxIsAC4hGgCQFTEOMAcMzmOJpM8+aTBzJYhoh
+UoAASjSDaU4gIRFDSLI9DyvFimx3qbYCCVgRmDAjkZinEcULpMjSosRwkBcgyXAs
+ogEFgCq0OZyaQg2HoBPHyQ4VUx/WxXj/w1/KTQKEGA5gETIAQE5kMBA4hoeCKHBY
+UhtKHIcRolmR5M0kFikocVAEAJhZE0SMSXXQcpcs2pkEiVcxAZtISTIjxImQpxlk
+xoiXzADwGtGJFTsswipbkQUbVEQbRBgjojKGUEulsoC17WrjPKE9rj+eqFhxuByC
+o1CDXa5ip0WTucqLNV4ZRtYnDlYk20V1k6qiFCtO2WEnLEBlCi5ZswSsiWc4imLo
+GALvK5YVbJU1BsOaOVI9Wh9cqloCMwlAlokSBFZEEgkwoFloFmhMizTLizzPUzQv
+kRCxnESbGBIy2ISxwFBAlDCvLo/QhnrH7iAsNKUGhXmqqVPOs0NXiYKJyoAqA+2j
+0wfoIkPX+VwI++kN64qjXc1Bzj+Wvp+vQft7ugD/VUtIzb8rF/beT7slG/8sGXkt
+PM0+P3korsvxqK5gXf91Y78PsTy/7mbRpmd9OzJy25uS6iKDfRNS0N4Nh8cy8MwX
+BHvi19ZPU5In5n67d8C7o7F85vzg5ZDq0KyE66DpZFHv5l03hgemX+4J/6F5gfq7
+j7skn+yNvnYk6OEnuV1+FwvbPqj4ts9uq8jM9oPGnG2RnhcyrJVk2WpWvjiVWjOd
+fmxZSnTIPPJmG1qUjJjuyK0hE2EV6MyjEmJoYKQnOGrF2YhOy4PuvogPZ5WGe55A
+ZU21rzE1Y7zfPqn/q33w6InoRMdXTf9ERH1XtS9XWT/L75lbaL86ZXk9waN3e7N7
+437R141774qb3+rJzQlU2kfzDDfDx7aeXR1ZuzbwvVODqbqxuH7/pLbWwJrZz0TQ
+VmAccJKNB2KTvzZuuAZbWjYa3dx222T9jdhb8QNE8OR8wcFmy5DfUOFHoZ2jp0bf
+X5+YNf69/HbESxs9UdsrXsHpU++mTxMldWnhPcPVCSk7r1Syp0f8Gj6u/NI7ca50
+S8plpaO4Kv7M+JaYTWvCu2bu9O4yjDzYvfL57LuJc6NhPx/fGenesXlt7vLPF24n
+BUR3nzsfvjvh4KrOhIfepEx/97bybyparr5am986e6G+LefFTEP8j+7Dsa0d0v09
+jWVmvSE/iGjIf2qwm6mIGzuNj4Xeqb1i9IT+fvw/
+=fE7N
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/richardhabeeb
+
+==================================================================
+

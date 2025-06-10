@@ -1,4 +1,5 @@
 import { splitProps, createSignal, onMount } from "solid-js"
+import { Dynamic } from "solid-js/web";
 import { ResponsiveImage } from '@responsive-image/solid';
 import headshot from './assets/richard_habeeb.jpg?w=256;512;1024&quality=40&format=original;avif&responsive'
 import headerBackground from './assets/IMG_4890.jpg?w=3984;2048;1024&quality=40&format=avif;original&responsive'
@@ -7,13 +8,13 @@ import background from './assets/nhv.jpg?w=4096;2048;1024&quality=40&format=avif
 import styles from './App.module.css';
 import education from './education.json'
 
-function ResponsiveBackgroundDiv(props) {
+function ResponsiveBackground(props) {
 	let thisElement;
 
 	const [myProps, restProps] = splitProps(
-    	props,
-    	["src", "children", "width"],
-  	);
+		props,
+		["src", "children", "width", "tag"],
+	);
 
 	const [width, setWidth] = createSignal(document.body.clientWidth);
 	if(myProps.width !== undefined) {
@@ -35,7 +36,7 @@ function ResponsiveBackgroundDiv(props) {
 	).join(", ");
 
 	return (
-		<div
+		<Dynamic component={props.tag}
 				ref={thisElement}
 				style={{
 					"background-image": `image-set(${imageSet})`,
@@ -43,7 +44,20 @@ function ResponsiveBackgroundDiv(props) {
 				{... restProps}
 		>
 			{myProps.children}
-		</div>
+		</Dynamic>
+	);
+}
+
+
+function ResponsiveBackgroundDiv(props) {
+	return (
+		<ResponsiveBackground tag="div" {... props} />
+	);
+}
+
+function ResponsiveBackgroundMain(props) {
+	return (
+		<ResponsiveBackground tag="main" {... props} />
 	);
 }
 
@@ -70,22 +84,22 @@ function App() {
 
 	return (
 		<ResponsiveBackgroundDiv src={background} class={styles.App}>
-	    	<header class={styles.header}>
+			<header class={styles.header}>
 				<ResponsiveBackgroundDiv src={headerBackground} class={styles.card}>
 					<div class={styles.container}>
-		  				<h1 class={styles.title}>Richard Habeeb</h1>
+						<h1 class={styles.title}>Richard Habeeb</h1>
 					</div>
 				</ResponsiveBackgroundDiv>
 			</header>
 
-			<ResponsiveBackgroundDiv
+			<ResponsiveBackgroundMain
 					class={[styles.content, styles.container].join(" ")}
 					src={contentBackground}
 			>
 				<div class={styles.sidebar}>
-			  		<ResponsiveImage src={headshot} class={styles.headshot} />
+					<ResponsiveImage src={headshot} class={styles.headshot} alt="Richard Habeeb's headshot" />
 					<br />
-					<b>Richard Habeeb</b> (he/him)<br/>
+					<b><a href="https://keybase.io/richardhabeeb">Richard Habeeb</a></b> (he/him)<br/>
 					<br />
 
 					<Education />
@@ -99,7 +113,7 @@ function App() {
 					}
 
 				</div>
-				<div>
+				<section>
 					<div>
 						<h2>Research</h2>
 						<p>
@@ -116,8 +130,8 @@ function App() {
 							At USF, I worked on improving the <a href="https://ieeexplore.ieee.org/abstract/document/7979793">security of building automation systems</a> for biosafety level 3 and 4 (BSL-3, BSL-4) laboratories, which require strict temperature, pressure, fire safety, and door locking regulations and rules. During my PhD I have focused on research into safety and security of autonomous vehicles, working at Amazon's <a href="https://zoox.com/">Zoox</a>, anddoing my own research on enclaves.
 						</p>
 					</div>
-				</div>
-			</ResponsiveBackgroundDiv>
+				</section>
+			</ResponsiveBackgroundMain>
 		</ResponsiveBackgroundDiv>
 	);
 }

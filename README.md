@@ -1,14 +1,6 @@
-## Usage
+# Richard Habeeb's Website
+[Personal website based on SolidJS.](https://habeeb.io)
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
-
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
-
-```bash
-$ npm install # or pnpm install or yarn install
-```
-
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
 ## Available Scripts
 
@@ -31,6 +23,5 @@ Your app is ready to be deployed!
 
 ## Deployment
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+Uses the Github workflow.
 
-## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
