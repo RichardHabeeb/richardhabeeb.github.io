@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #212121;
+}
+
+button {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 400;
+	font-style: normal;
+	border: 1px solid #212121;
+	color: #212121;
+	background: transparent;
+	height: 1rem;
+	font-size: 0.75rem
+}
+
+p {
+	margin-bottom: 2rem;
+	-webkit-hyphens: auto;
+ 	-moz-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphens: auto;
+	text-align:justify;
+}
+
+.App {
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	padding-bottom:2rem;
+}
+@media screen and (width < 768px) {
+	.App {
+		background-size: 200%;
+	}
+}
+
+.container {
+	margin: 0 auto;
+	width: 768px;
+}
+@media screen and (width < 768px) {
+	.container {
+		width: 95vw;
+	}
+}
+
+
+.header {
+	margin-bottom: 2rem;
+	box-shadow: 0 0 256px 0px rgba(1,1,1, 0.1);
+}
+
+.card {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.title {
+	padding-top: 8rem;
+	font-size: max(2rem, 1.8cqw);
+	font-family: "bd-geminis", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #00ffff;
+}
+@media screen and (width < 768px) {
+	.title {
+		padding-top: 2rem;
+	}
+}
+
+.content {
+	display: flex;
+	background: rgba(255,255,255,0.85);
+	padding: 2rem;
+	flex-flow: row;
+}
+@media screen and (width < 768px) {
+	.content {
+		flex-flow:column;
+	}
+}
+
+.sidebar {
+	width: 16rem;
+	margin-right: 2rem;
+	flex-shrink: 0;
+	margin-bottom:2rem;
+}
+@media screen and (width < 768px) {
+	.sidebar {
+		width: 100%;
+	}
+}
+
+.education > li {
+	margin-bottom: 1rem;
+	-webkit-hyphens: auto;
+ 	-moz-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphens: auto;
+}
+
+.headshot {
+	aspect-ratio: 1/1;
+	object-position: top;
+	object-fit: cover;
+	width: 100%;
+	margin-bottom: 2rem;
+}
+@media screen and (width < 768px) {
+	.headshot {
+		width: 50%;
+	}
+}
+
+

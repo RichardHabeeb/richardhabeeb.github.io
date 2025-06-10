@@ -1,0 +1,26 @@
+[
+	{
+		"degree": "Ph.D. Candidate in Computer Science",
+		"university": "Yale University (expected 2025)",
+		"advisor": {
+			"name": "Zhong Shao",
+			"url": "https://www.cs.yale.edu/homes/shao-zhong/"
+		}
+	},
+	{
+		"degree": "M.S. in Computer Science",
+		"university": "University of South Florida",
+		"advisor": {
+			"name": "Xinming (Simon) Ou",
+			"url": "https://cse.usf.edu/~xou/"
+		}
+	},
+	{
+		"degree": "B.S. in Computer Engineering",
+		"university": "Kansas State University",
+		"advisor": {
+			"name": "Caterina Scoglio",
+			"url": "https://ece.k-state.edu/about/people/faculty/scoglio/"
+		}
+	}
+]

@@ -1,0 +1,22 @@
+{
+  "name": "habeeb.io",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.6"
+  },
+  "dependencies": {
+    "@responsive-image/solid": "^1.1.1",
+    "@responsive-image/vite-plugin": "^1.1.0",
+    "solid-js": "^1.9.5"
+  }
+}
