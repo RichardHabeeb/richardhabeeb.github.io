@@ -117,7 +117,7 @@ function App() {
 					<div>
 						<h2>Research</h2>
 						<p>
-							I am a leading computer science researcher in the <a href="https://flint.cs.yale.edu/">Flint group</a> at Yale. For my PhD I have been improving the security, safety, and performance of critical systems—focused on autonomous vehicles, drones, industrial robotics, and more. My research focuses on zero-trust architectures, secure enclaves (TEEs), and formally verifiable concurrent and asynchronous systems. My philosophy is this: No magic, no black boxes—I want to understand how everything works, so we can build amazing systems together.
+							I am a leading computer science researcher in the <a href="https://flint.cs.yale.edu/">Flint group</a> at Yale. For my PhD I have been improving the security, safety, and performance of critical systems—focused on autonomous vehicles, drones, industrial robotics, and more. My research focuses on trustworthy architectures, secure enclaves (TEEs), and formally verifiable concurrent and asynchronous systems. My philosophy is this: No magic, no black boxes—I want to understand how everything works, so we can build amazing systems together.
 						</p>
 					</div>
 					<div>
