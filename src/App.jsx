@@ -117,17 +117,26 @@ function App() {
 					<div>
 						<h2>Research</h2>
 						<p>
-							I tend spend my time building, breaking, and analyzing many kinds of systems. My research interests tend towards computer security, enclaves, operating systems, embedded physical systems like robotics, and any other highly performant and available systems. I am currently working on using <a href="https://richardhabeeb.github.io/EnclaveResearch/">enclaves or Trusted Execution Environments</a> to protect the most safety-crtical, privacy-sensitive, or real-time software on next-gen automotive systems, avionics, medical devices, robotics, and many other kinds of physical systems. <a href="https://flint.cs.yale.edu/">My research group</a> builds trustworthy systems using formal-methods, focusing on the challenges associated with concurrent and asynchronous computing.
-
+							I am a leading computer science researcher in the <a href="https://flint.cs.yale.edu/">Flint group</a> at Yale. For my PhD I have been improving the security, safety, and performance of critical systems—focused on autonomous vehicles, drones, industrial robotics, and more. My research focuses on zero-trust architectures, secure enclaves (TEEs), and formally verifiable concurrent and asynchronous systems. My philosophy is this: No magic, no black boxes—I want to understand how everything works, so we can build amazing systems together.
 						</p>
+					</div>
+					<div>
+						<h2>Publications</h2>
+						<ul class={styles.publications}>
+							<li>
+								<a href="https://ieeexplore.ieee.org/abstract/document/7979793">Enhanced security of building automation systems through microkernel-based controller platforms.</a>
+								<br />
+								<i>Xiaolong Wang, Richard Habeeb, Xinming Ou, Siddharth Amaravadi, John Hatcliff, Masaaki Mizuno, Mitchell Neilsen, S Raj Rajagopalan, Srivatsan Varadarajan. 2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW).</i>
+							</li>
+						</ul>
 					</div>
 					<div>
 						<h2>About Me</h2>
 						<p>
-							I have been designing, coding, hacking, and fixing computers since I was a kid working with my dad, <a href="https://www.imdb.com/name/nm0352141/">Tommy Habeeb</a>, on TV sets during my summers. In undergrad, I led the <a href="https://youtu.be/7pr81BwrDGo?t=52">K-State Robotics Competition Team (KSURCT)</a> and worked at <a href="https://www.garmin.com/en-US/">Garmin</a>&#32; part time for a few years learning the basics of robotics, avionics, and embedded systems design.
+							I have been designing, coding, hacking, and fixing computers since I was a kid working with my dad, <a href="https://www.imdb.com/name/nm0352141/">Tommy Habeeb</a>, on TV sets during my summers. In undergrad, I led the <a href="https://youtu.be/7pr81BwrDGo?t=52">K-State Robotics Competition Team (KSURCT)</a> and worked at Garmin part time for a few years learning the basics of robotics, avionics, and embedded systems design.
 						</p>
 						<p>
-							At USF, I worked on improving the <a href="https://ieeexplore.ieee.org/abstract/document/7979793">security of building automation systems</a> for biosafety level 3 and 4 (BSL-3, BSL-4) laboratories, which require strict temperature, pressure, fire safety, and door locking regulations and rules. During my PhD I have focused on research into safety and security of autonomous vehicles, working at Amazon's <a href="https://zoox.com/">Zoox</a>, anddoing my own research on enclaves.
+							At USF, I worked on improving the security of building automation systems (BAS) for biosafety level 3 and 4 (BSL-3, BSL-4) laboratories, which require strict temperature, pressure, fire safety, and door locking regulations and rules. During my PhD I have focused on research into safety and security of autonomous vehicles, working at Amazon's <a href="https://zoox.com/">Zoox</a>, and doing my own research on enclaves.
 						</p>
 					</div>
 				</section>

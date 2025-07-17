@@ -51,6 +51,11 @@ p {
 	text-align:justify;
 }
 
+ul {
+	margin-bottom: 2rem;
+}
+
+
 code {
 	font-family: "Courier New", Courier, monospace;
 	monospace;
