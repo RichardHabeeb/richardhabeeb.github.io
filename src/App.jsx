@@ -5,8 +5,9 @@ import headshot from './assets/richard_habeeb.jpg?w=256;512;1024&quality=40&form
 import headerBackground from './assets/IMG_4890.jpg?w=3984;2048;1024&quality=40&format=avif;original&responsive'
 import contentBackground from './assets/64-50-5-monochrome.png?w=64&format=avif;original&responsive'
 import background from './assets/nhv.jpg?w=4096;2048;1024&quality=40&format=avif;original&responsive'
-import styles from './App.module.css';
+import styles from './App.module.css'
 import education from './education.json'
+import publications from './publications.json'
 
 function ResponsiveBackground(props) {
 	let thisElement;
@@ -78,6 +79,29 @@ function Education() {
 }
 
 
+function PublicationItem(props) {
+	return (
+			<li>
+				<a href={props.url}>{props.title}</a>
+				<br />
+				<i>{props.authors}. {props.conference}.</i>
+			</li>
+	);
+}
+
+
+function Publications() {
+	return (
+		<div>
+			<h2>Publications</h2>
+			<ul class={styles.publications}>
+				{publications.map((i) => <PublicationItem {... i} />)}
+			</ul>
+		</div>
+	);
+}
+
+
 function App() {
 	const [contactAgree, setContactAgree] = createSignal(0);
 	const toggleContact = () => setContactAgree((prev) => !prev);
@@ -115,23 +139,22 @@ function App() {
 				</div>
 				<section>
 					<div>
-						<h2>Research</h2>
 						<p>
-							I am a leading computer science researcher in the <a href="https://flint.cs.yale.edu/">Flint group</a> at Yale. For my PhD I have been improving the security, safety, and performance of critical systems—focused on autonomous vehicles, drones, industrial robotics, and more. My research focuses on trustworthy architectures, secure enclaves (TEEs), and formally verifiable concurrent and asynchronous systems. My philosophy is this: No magic, no black boxes—I want to understand how everything works, so we can build amazing systems together.
+							<b>Security researcher and systems engineer building the next generation of trustworthy computation.</b>
 						</p>
 					</div>
 					<div>
-						<h2>Publications</h2>
-						<ul class={styles.publications}>
-							<li>
-								<a href="https://ieeexplore.ieee.org/abstract/document/7979793">Enhanced security of building automation systems through microkernel-based controller platforms.</a>
-								<br />
-								<i>Xiaolong Wang, Richard Habeeb, Xinming Ou, Siddharth Amaravadi, John Hatcliff, Masaaki Mizuno, Mitchell Neilsen, S Raj Rajagopalan, Srivatsan Varadarajan. 2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW).</i>
-							</li>
-						</ul>
-					</div>
-					<div>
 						<h2>About Me</h2>
+						<p>
+							I am a leading computer science researcher in the <a href="https://flint.cs.yale.edu/">Flint group</a> at Yale. For my PhD I have been improving the security, safety, and performance of critical systems—focused on autonomous vehicles, self-driving cars, drones, industrial robotics, and more. My research focuses on trustworthy architectures, secure enclaves (TEEs), and formally verifiable concurrent and asynchronous systems.
+						</p>
+						<p>
+							I'm passionate about building secure, reliable systems from the ground up. My approach is simple: no magic, no black boxes. I believe the best solutions come from truly understanding how everything works—from hardware to high-level applications.
+						</p>
+					</div>
+					<Publications />
+					<div>
+						<h2>Background</h2>
 						<p>
 							I have been designing, coding, hacking, and fixing computers since I was a kid working with my dad, <a href="https://www.imdb.com/name/nm0352141/">Tommy Habeeb</a>, on TV sets during my summers. Informally, I started coding at 12, landed my first programming job at 15, executed my first SQL injection attack (legally!) at 17, and by 18 was managing IT and security for a small tech company. In undergrad, I led the <a href="https://youtu.be/7pr81BwrDGo?t=52">K-State Robotics Competition Team (KSURCT)</a> and worked at Garmin part time for a few years learning the basics of robotics, avionics, and embedded systems design.
 						</p>
