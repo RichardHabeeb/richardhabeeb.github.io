@@ -140,7 +140,7 @@ function App() {
 				<section>
 					<div>
 						<p>
-							<b>Security researcher and systems engineer building the next generation of trustworthy computation.</b>
+							<b>Security researcher and systems engineer helping build the next generation of trustworthy computation.</b>
 						</p>
 					</div>
 					<div>
