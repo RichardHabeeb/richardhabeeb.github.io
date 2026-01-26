@@ -136,6 +136,11 @@ function App() {
 						<button onClick={toggleContact}>I understand.</button>
 					}
 
+					<br />
+					<br />
+					<a href="https://linkedin.com/in/richard-habeeb/">LinkedIn</a><br />
+					<a href="https://x.com/0xdeadbeeb">X (0xdeadbeeb)</a><br />
+
 				</div>
 				<section>
 					<div>
