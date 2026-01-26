@@ -1,7 +1,14 @@
 [
 	{
-		"title":"(To appear) It’s a non-stop PARTEE! Practical multi-enclave availability through partitioning and asynchrony",
-		"url":"#",
+		"title":"Ringmaster: How to juggle high-throughput host OS system calls from TrustZone TEEs",
+		"url":"https://arxiv.org/abs/2601.16448",
+		"authors": "Richard Habeeb, Man-Ki Yoon, Hao Chen, Zhong Shao",
+		"conference": "ArXiv preprint arXiv:2601.16448",
+		"year": 2026
+	},
+	{
+		"title":"It's a non-stop PARTEE! Practical multi-enclave availability through partitioning and asynchrony",
+		"url":"https://www.cs.yale.edu/flint/certikos/publications/partee.pdf",
 		"authors": "Richard Habeeb, Hao Chen, Man-Ki Yoon, Zhong Shao",
 		"conference": "41st Annual Computer Security Applications Conference (ACSAC 2025)",
 		"year": 2025
