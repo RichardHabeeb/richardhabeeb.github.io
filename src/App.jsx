@@ -128,35 +128,33 @@ function App() {
 
 					<Education />
 
-					<a href="https://linkedin.com/in/richard-habeeb/">LinkedIn</a><br />
-					<a href="https://x.com/0xdeadbeeb">X (0xdeadbeeb)</a><br />
+					<ul>
+						<li><a href="https://linkedin.com/in/richard-habeeb/">LinkedIn</a></li>
+						<li><a href="https://x.com/0xdeadbeeb">Twitter (0xdeadbeeb)</a></li>
+						<li><a href="https://github.com/richardhabeeb">GitHub</a></li>
+					</ul>
+
+					<br />
+					<br />
+					I may not respond to all emails, but I'm open to hear about interesting opportunities and collaborations.
+					<br />
+					<br />
+					{ contactAgree() ?
+						"richard.habeeb" + "@" + "yale.edu" :
+						<button onClick={toggleContact}>I understand.</button>
+					}
+
+					<br />
+					<br />
 
 				</div>
 				<section>
 					<div>
 						<p>
-							<b>Security researcher and systems engineer building the next generation of trustworthy computation.</b>
-						</p>
-					</div>
-					<div>
-						<h2>About Me</h2>
-						<p>
-							The world needs systems that just work. The catch is that trustworthy software is really hard to build. My approach is based on first-principles: no magic, no black boxes. I believe the best solutions come from truly understanding how everything works&mdash;from hardware to high-level applications.
-						</p>
-						<p>
-							I am a co-founder of <a href="https://partee.systems">PARTEE</a> which provides secure containers for physical AI. PARTEE grew out of my research in the <a href="https://flint.cs.yale.edu/">Flint group</a> at Yale. For my PhD I worked to evolve the security, safety, and performance of physical AI:  autonomous taxis, humanoids, drones, industrial robotics, and more. My research focuses on trustworthy architectures, secure enclaves (TEEs), and formally verifiable concurrent and asynchronous systems.
+							<b>Software Architect | Low-Latency Systems Engineer | OS Security Researcher</b>
 						</p>
 					</div>
 					<Publications />
-					<div>
-						<h2>Background</h2>
-						<p>
-							I have been designing, coding, hacking, and fixing computers since I was a kid working with my dad, <a href="https://www.imdb.com/name/nm0352141/">Tommy Habeeb</a>, on TV sets during my summers. Informally, I started coding at 12, landed my first programming job at 15, executed my first SQL injection attack (legally!) at 17, and by 18 was managing IT and security for a small tech company. In undergrad, I led the <a href="https://youtu.be/7pr81BwrDGo?t=52">K-State Robotics Competition Team (KSURCT)</a> and worked at Garmin part time for a few years learning the basics of robotics, avionics, and embedded systems design.
-						</p>
-						<p>
-							At USF, I worked on improving the security of building automation systems (BAS) for biosafety level 3 and 4 (BSL-3, BSL-4) laboratories, which require strict temperature, pressure, fire safety, and door locking regulations and rules. During my PhD I have focused on research into safety and security of autonomous vehicles, working at <a href="https://zoox.com/">Zoox</a>, and doing my own research on enclaves.
-						</p>
-					</div>
 				</section>
 			</ResponsiveBackgroundMain>
 		</ResponsiveBackgroundDiv>
